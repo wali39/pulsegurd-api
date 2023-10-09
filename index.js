@@ -45,7 +45,7 @@ app.post('/api/v1/sens', (req, res) => {
                 success: true,
                 data: patientdata
             })).then((err) => console.log());
-        status = false;
+        // status = false;
     } else {
         res.json({ sucess: false, data: [] })
     }
