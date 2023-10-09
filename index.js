@@ -23,7 +23,7 @@ app.post('/api/v1/user', (req, res) => {
     res.json({ 'status': 200, 'data': req.body });
 
 })
-let status = false;
+let status = true;
 app.post("/api/v1/status", (req, res) => {
     status = req.body.status;
     res.json({ 'status': 200, 'data': status });
