@@ -1,9 +1,12 @@
 const mongoose = require("mongoose");
 const patientSchema = new mongoose.Schema({
+    name: String,
+    age: Number,
     heartbeat: Number,
     spo2: Number,
-    ecg: [Number]
-});
+    ecg: [Number],
 
-module.exports=mongoose.model("patients",patientSchema);
+}, { timestamps: true });
+
+module.exports = mongoose.model("patients", patientSchema);
 
