@@ -27,7 +27,7 @@ app.post('/api/v1/user', (req, res) => {
     res.json({ 'status': 200, 'data': req.body });
 
 })
-let status = false;
+let status = true;
 app.post("/api/v1/status", (req, res) => {
     status = req.body.status;
     res.json({ 'status': 200, 'data': status });
@@ -63,7 +63,7 @@ app.post('/api/v1/sens', (req, res) => {
                 success: true,
                 data: patientdata
             })).then((err) => console.log());
-        status = false;
+        // status = false;
     } else {
         res.json({ sucess: false, data: [] })
     }
