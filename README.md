@@ -27,7 +27,7 @@ We developed RESTFUL API using node.js, express.js and mongoose.js
    npm install
    ```
 4. Run api
-   ```js
+   ```sh
    node index.js
    ```
 
@@ -67,4 +67,4 @@ We developed RESTFUL API using node.js, express.js and mongoose.js
 
 <h4><a href="https://github.com/wali39/pulsegurd-app">Pulsegurd App Repository</a></h4>
 <h4><a href="https://github.com/wali39/pulsegurd-app">Live Demo </a></h4>
-```
+
